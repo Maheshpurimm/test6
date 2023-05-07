@@ -1,0 +1,40 @@
+package Methods;
+
+public class Sample8 
+{
+   // Non Static regular method call from same class
+	public static void main(String[] args) 
+	{
+		//Step-1 Creat object of same class
+	
+		  Sample8 T1=new Sample8();   //classname objectname=new classname();
+		
+		 //Step-2 call the method
+		         T1.m8();                 //objectname.methodname();
+		         T1.m9();
+		
+		
+	}
+	
+	// Non Static Regular Method
+	
+	public void m8() 
+	{
+		System.out.println("Hii..Good Morning");
+		
+	}
+    // Non Static Regular Method
+	public void m9() 
+	{
+		System.out.println("Hii..Good Afternoon");
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+}
